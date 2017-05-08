@@ -4,7 +4,7 @@ let trackers;
 
 module.exports = {
 	addTrackers: function(file,mainTracker,trackerList,replaceTrackers){
-		let buff = fs.readFileSync(argv.f);
+		let buff = fs.readFileSync(file);
 		let data = bencode.decode(buff);
 		data['created by'] = 'Nyaa 1.0';
 		if(trackerList && trackerList.length > 0){
