@@ -1,0 +1,26 @@
+{
+	"name": "add-trackers",
+	"version": "1.0.1",
+	"description": "Add trackers to exist torrent file.",
+	"keywords": [
+		"torrent",
+		"trackers",
+		"tracker",
+		"util",
+		"utility"
+	],
+	"author": "Seiya Loveless",
+	"homepage": "https://github.com/seiya-npm/add-trackers",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/seiya-npm/add-trackers.git"
+	},
+	"bugs": {
+		"url": "https://github.com/seiya-npm/add-trackers/issues"
+	},
+	"license": "MIT",
+	"main": "addtrackers.js",
+	"dependencies": {
+		"bencode": "^0.12.0"
+	}
+}
