@@ -1,6 +1,6 @@
 {
     "name": "add-trackers",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Add trackers to exist torrent file.",
     "keywords": [
         "torrent",
